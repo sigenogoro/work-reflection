@@ -1,1 +1,10 @@
-# work-reflection
+# 作業の可視化ができるサービスを目指す(work-visualization のフロント部分)
+## 機能
+- タスク管理
+  - 時系列で見ることができる
+- 時間測定
+- 振り返り（YWTフレームワークを利用）
+
+## 技術選定
+### フロントエンド
+- Nuxt.js(js or typeScript)
