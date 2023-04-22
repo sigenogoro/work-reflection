@@ -1,12 +1,32 @@
 
-body {
+body, html {
+  padding: 0;
   margin: 0;
+  height: 100%;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 
-.sidenav {
-  position: fixed;
-  background-color: mediumturquoise;
-  width: 30%;
+.container {
   height: 100%;
+}
+
+.menu {
+  background: mediumaquamarine;
+  position: absolute;
+  height: 100%;
+  width: 200px;
+}
+
+.contents {
+  background: rgb(108, 129, 108);
+  height: 100%;
+  padding: 50px 50px;
+  box-sizing: border-box;
+  margin-left: 200px;
 }
