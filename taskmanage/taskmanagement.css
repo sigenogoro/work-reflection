@@ -1,0 +1,12 @@
+
+body {
+  margin: 0;
+}
+
+
+.sidenav {
+  position: fixed;
+  background-color: mediumturquoise;
+  width: 30%;
+  height: 100%;
+}
