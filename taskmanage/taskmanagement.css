@@ -13,12 +13,7 @@ ul, li {
 .side-bar {
   height: 100%;
   width: 250px;
-  position: absolute;
-}
-
-.contents {
-  height: 100%;
-  margin-left: 250px;
+  position:absolute;
 }
 
 .title-menu {
@@ -31,7 +26,7 @@ ul, li {
   background: rgb(95, 14, 208);
 }
 
-ul{
+ul.nav {
   height: 80%;
   background: aqua;
 }
@@ -43,4 +38,20 @@ li {
 .nav i {
   font-size: 20px;
   padding-right: 20px;
+}
+
+.contents {
+  height: 100%;
+  width: 100%;
+  background: rgb(231, 168, 168);
+  margin-left: 250px;
+  padding: 0 50px;
+}
+
+.table-block{
+  overflow: hidden;
+}
+
+.task-management-block{
+  background: red;
 }
