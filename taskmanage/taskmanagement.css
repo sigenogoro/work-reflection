@@ -1,7 +1,7 @@
 body, html {
   padding: 0;
   margin: 0;
-  background: gray;
+  background: rgb(227, 227, 227);
 }
 
 ul, li {
@@ -29,7 +29,7 @@ ul.nav {
   height: 80%;
 }
 
-li {
+.nav li {
   padding: 30px 10px 30px 40px;
 }
 
@@ -46,10 +46,39 @@ li {
   overflow: hidden;
 }
 
-.table-content {
-  padding-right: 50px;
+.task-list {
+  width: 80%;
 }
 
-.table-content table {
-  width: 100%;
+.task {
+  display: flex;
+  height: 40px;
+  border-bottom: solid 1px #87CEFA;
+  margin-bottom: 8px;
+}
+
+.button {
+  display: flex;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.css-button {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.task-content{
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.task li {
+  padding: 10px;
 }
