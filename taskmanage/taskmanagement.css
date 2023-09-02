@@ -1,8 +1,7 @@
 body, html {
   padding: 0;
   margin: 0;
-  height: 100%;
-  background: rgb(236, 235, 235);
+  background: gray;
 }
 
 ul, li {
@@ -26,10 +25,6 @@ ul, li {
   height: 10%;
 }
 
-.item-menu-block {
-  height: 100%;
-}
-
 ul.nav {
   height: 80%;
 }
@@ -45,16 +40,16 @@ li {
 
 .contents {
   height: 100%;
-  width: 100%;
   margin-left: 250px;
-  padding: 0 50px;
-}
-
-.table-block{
+  padding-top: 50px;
+  padding-left: 50px;
   overflow: hidden;
 }
 
-.task-management-block{
+.table-content {
+  padding-right: 50px;
+}
+
+.table-content table {
   width: 100%;
-  height: 300px;
 }
